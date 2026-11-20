@@ -1,0 +1,378 @@
+\documentclass[11pt]{article}
+
+\usepackage[margin=2.5cm]{geometry}
+\usepackage{amsmath,amssymb}
+\usepackage{array}
+\usepackage[hidelinks]{hyperref}
+
+\setlength{\parindent}{0pt}
+\setlength{\parskip}{6pt}
+\renewcommand{\arraystretch}{1.3}
+
+\newcommand{\pts}[1]{\textbf{(#1 points)}}
+
+\title{ECON 302 Game Theory\\[4pt] \large Past Final Exam Questions with Solutions}
+\author{Prof.\ Okan Y\i lankaya --- collected past finals}
+\date{}
+
+\begin{document}
+\maketitle
+\tableofcontents
+\newpage
+
+%======================================================================
+\part*{Questions}
+\addcontentsline{toc}{part}{Questions}
+%======================================================================
+
+\section*{Exam A}
+\addcontentsline{toc}{section}{Exam A}
+\textit{You have 50 minutes including submission. Be precise and concise. Think before you start writing. SHOW YOUR WORK. Good luck!}
+
+\subsection*{A1. Choosing a standard \pts{35}}
+There are two firms (Firm 1 and 2) in some industry. Each firm will choose a standard for its product, for which there are three possibilities, $A$, $B$, and $C$. $A$ is invented by Firm 1, $B$ is invented by Firm 2, and $C$ is invented by a third party. Firm 1 decides which standard to choose first. Firm 2 observes Firm 1's choice, and then chooses its standard. If firms choose different standards, they both get zero profits. (Consumers will not be much interested in their product.) If they both choose one of the standards invented by either one of them (that is, either both choose $A$ or both choose $B$), then the inventor of that standard will get \$10, the other firm will get \$5. Finally, if they both choose $C$, then both will get \$7.
+\begin{enumerate}
+  \item[(a)] \pts{10} What are the strategy sets of these firms? How many pure strategies does each firm have?
+  \item[(b)] \pts{15} Find all subgame perfect equilibria.
+  \item[(c)] \pts{10} Find a Nash equilibrium that is not subgame perfect.
+\end{enumerate}
+
+\subsection*{A2. Twice-repeated game \pts{35}}
+Suppose that the stage game shown below is played twice, and that both players observe the outcome of the first period before choosing their actions in the second period. There is no discounting for either player.
+\begin{center}
+\begin{tabular}{c|c|c|c|}
+  \multicolumn{1}{c}{} & \multicolumn{1}{c}{$A_2$} & \multicolumn{1}{c}{$B_2$} & \multicolumn{1}{c}{$C_2$} \\ \cline{2-4}
+  $A_1$ & $10,10$ & $2,7$  & $0,12$ \\ \cline{2-4}
+  $B_1$ & $12,0$  & $4,3$  & $-2,1$ \\ \cline{2-4}
+  $C_1$ & $11,-3$ & $1,-1$ & $1,0$  \\ \cline{2-4}
+\end{tabular}
+\end{center}
+\begin{enumerate}
+  \item[(a)] \pts{25} Find a subgame perfect equilibrium in which $(A_1,A_2)$ is played in the first period.
+  \item[(b)] \pts{10} Find four more subgame perfect equilibria. (Obviously, you need to show what you propose are indeed subgame perfect equilibria for both parts of this question. A similar remark applies to all questions.)
+\end{enumerate}
+
+\subsection*{A3. All-pay auction \pts{30}}
+Consider an auction where there are two risk-neutral bidders who have valuations ($v$) that are independently and uniformly distributed on $[0,1]$. Each bidder knows her own valuation. Bidders will simultaneously submit their bids (nonnegative real numbers) in a sealed envelope. The highest bidder will win the object, but \emph{both} will pay their bids. Show that it is a Bayesian--Nash equilibrium for both to bid $b(v)=\tfrac12 v^2$.
+
+%----------------------------------------------------------------------
+\section*{Exam B}
+\addcontentsline{toc}{section}{Exam B}
+\textit{You have 60 minutes. Be precise and concise. Think before you start writing. SHOW YOUR WORK. Good luck and have a nice break.}
+
+\subsection*{B1. Twice-repeated game \pts{30}}
+Suppose that the stage game shown below is played twice, and that both players observe the outcome of the first period before choosing their actions in the second period. There is no discounting for either player.
+\begin{center}
+\begin{tabular}{c|c|c|c|}
+  \multicolumn{1}{c}{} & \multicolumn{1}{c}{$A_2$} & \multicolumn{1}{c}{$B_2$} & \multicolumn{1}{c}{$C_2$} \\ \cline{2-4}
+  $A_1$ & $4,4$  & $-2,2$ & $3,3$  \\ \cline{2-4}
+  $B_1$ & $2,-2$ & $1,1$  & $10,0$ \\ \cline{2-4}
+  $C_1$ & $3,3$  & $0,10$ & $8,8$  \\ \cline{2-4}
+\end{tabular}
+\end{center}
+\begin{enumerate}
+  \item[(a)] \pts{5} How many strategies does each player have?
+  \item[(b)] \pts{15} Find a subgame perfect equilibrium in which $(C_1,C_2)$ is played in the first period.
+  \item[(c)] \pts{10} Find four more subgame perfect equilibria. (Obviously, you need to show what you propose are indeed subgame perfect equilibria for both parts of this question. A similar remark applies to all questions.)
+\end{enumerate}
+
+\subsection*{B2. John and Smith go to the movies \pts{35}}
+Two friends, John and Smith, will \emph{simultaneously} decide which movie to go to (they don't have much of a communication). The alternatives are \emph{The Shining} and \emph{The Blues Brothers}. There is a possibility that John had a nightmare the previous night. John \emph{knows} whether he had a nightmare or not. Smith \emph{does not know} whether John had a nightmare the previous night, but he thinks both possibilities are equally likely. The payoffs in case John had a peaceful sleep are (John is the row player, Smith is the column player):
+\begin{center}
+\begin{tabular}{r|c|c|}
+  \multicolumn{1}{c}{} & \multicolumn{1}{c}{Shining} & \multicolumn{1}{c}{Blues Brothers} \\ \cline{2-3}
+  Shining        & $2,1$ & $0,0$ \\ \cline{2-3}
+  Blues Brothers & $0,0$ & $1,2$ \\ \cline{2-3}
+\end{tabular}
+\end{center}
+The payoffs if John had a nightmare are:
+\begin{center}
+\begin{tabular}{r|c|c|}
+  \multicolumn{1}{c}{} & \multicolumn{1}{c}{Shining} & \multicolumn{1}{c}{Blues Brothers} \\ \cline{2-3}
+  Shining        & $-1,1$ & $-2,0$ \\ \cline{2-3}
+  Blues Brothers & $0,0$  & $1,2$  \\ \cline{2-3}
+\end{tabular}
+\end{center}
+All of this is common knowledge.
+\begin{enumerate}
+  \item[(a)] \pts{10} What are the strategy sets? How many strategies do John and Smith have?
+  \item[(b)] \pts{25} Find \emph{all} pure-strategy Bayesian--Nash equilibria.
+\end{enumerate}
+
+\subsection*{B3. Job-market signaling \pts{35}}
+Consider the following job-market signaling model. Nature chooses the worker's type $t\in T=\{1,2\}$: $t=1$ with probability $p$, and $t=2$ with probability $1-p$, where $p\in(0,1)$. The worker chooses her education level, $e\ge 0$, knowing her type. There are two firms; they observe the worker's choice of $e$, but not her type. The firms engage in Bertrand competition in offering a wage ($w$). (They offer a wage that leaves them zero profit.) Finally, the worker accepts the best wage offer. The payoff functions for the worker and the firms are, respectively,
+\[
+  U(t,e,w)=w-\frac{e}{2t} \qquad\text{and}\qquad \pi(w,t)=3t-w .
+\]
+Characterize all separating and pooling Perfect Bayesian Equilibrium (PBE) \emph{outcomes}. Find one separating and one pooling PBE.
+
+%----------------------------------------------------------------------
+\section*{ECON 521 Final, Spring 2022}
+\addcontentsline{toc}{section}{ECON 521 Final, Spring 2022}
+\textit{You have 35 minutes including submission. Be precise and concise. Think before you start writing. SHOW YOUR WORK. Good luck!}
+
+\subsection*{C1. Three-period bargaining \pts{50}}
+Player 1 and 2 are bargaining over \$10. They alternate in making offers: In the first period Player 1 proposes to take $s_1$ for herself, thus leaving $10-s_1$ for Player 2. Player 2 either accepts this offer (thus ends the game) or rejects it (in which case play continues to the second period). In the second period Player 2 proposes that Player 1 takes $s_2$, thus leaving $10-s_2$ for herself. (\emph{Note} the convention that $s_t$ is what Player 1 gets, for $t=1,2$, regardless of who makes the offer.) Player 1 either accepts this offer (thus ends the game) or rejects it (in which case play continues to the third period). In the third period Player 1 receives \$$y$ and Player 2 receives \$$(10-y)$, where $0<y<10$. Players have a discount factor of $\delta$, where $0<\delta<1$. Find the subgame perfect equilibrium.
+
+\subsection*{C2. Repeated Bertrand competition \pts{50}}
+There are $n\ge 2$ firms, and each has zero costs. The industry demand function is given by $q(p)=1-p$ (for $p\le 1$), where $p=\min\{p_1,p_2,\dots,p_n\}$ and $p_i\in\mathbb{R}_+$ is the price charged by firm $i\in\{1,2,\dots,n\}$. There is infinitely repeated interaction: In each period firms simultaneously choose their prices, and all the firms that set the lowest price share the market equally. All the firms have the same discount factor $\delta$, and maximize discounted present value of profit. At any date $t>1$ all past prices are observable. For what values of $\delta$ is it a subgame perfect equilibrium outcome for all firms to charge the monopoly price? \emph{Hint:} Use grim trigger strategies.
+
+\newpage
+%======================================================================
+\part*{Solutions}
+\addcontentsline{toc}{part}{Solutions}
+%======================================================================
+
+\section*{Solutions to Exam A}
+\addcontentsline{toc}{section}{Solutions to Exam A}
+
+\subsection*{A1. Choosing a standard}
+Payoffs $(u_1,u_2)$: $(A,A)\mapsto(10,5)$, $(B,B)\mapsto(5,10)$, $(C,C)\mapsto(7,7)$, and $(0,0)$ whenever the standards differ.
+
+\textbf{(a)} Firm 1 moves once, at the root: $S_1=\{A,B,C\}$, so \textbf{3} pure strategies.
+Firm 2 has three information sets (one after each choice of Firm 1) and must specify an action at each. Write a strategy as $xyz$ = (reply to $A$, reply to $B$, reply to $C$):
+\[
+  S_2=\{A,B,C\}^3=\{AAA,AAB,\dots,CCC\},\qquad |S_2|=3^3=\textbf{27}.
+\]
+
+\textbf{(b)} Backward induction. After Firm 1 chooses
+\begin{itemize}
+  \item $A$: Firm 2 gets $5$ from $A$ and $0$ otherwise $\Rightarrow$ $A$.
+  \item $B$: Firm 2 gets $10$ from $B$ and $0$ otherwise $\Rightarrow$ $B$.
+  \item $C$: Firm 2 gets $7$ from $C$ and $0$ otherwise $\Rightarrow$ $C$.
+\end{itemize}
+Each optimal reply is unique, so Firm 2's only sequentially rational strategy is $ABC$ (always match). Anticipating this, Firm 1 compares $A\to10$, $B\to5$, $C\to7$ and chooses $A$.
+\[
+  \boxed{\text{Unique SPE: } (A,\ ABC),\quad \text{outcome } (A,A),\ \text{payoffs } (10,5).}
+\]
+
+\textbf{(c)} Let Firm 2 play $CBC$ (``if you pick $A$ I will pick $C$''). Firm 1 then gets $A\to0$, $B\to5$, $C\to7$, so $C$ is a best response. Given Firm 1 plays $C$, Firm 2's payoff depends only on its reply to $C$, and $C$ gives $7$, the maximum, so $CBC$ is a best response. Hence
+\[
+  (C,\ CBC)\ \text{is a Nash equilibrium with outcome } (C,C) \text{ and payoffs } (7,7).
+\]
+It is \emph{not} subgame perfect: in the subgame after $A$, Firm 2 would get $0$ from $C$ instead of $5$ from $A$. The threat is not credible.
+(Another example: $(B,\ BBB)$, outcome $(B,B)$, payoffs $(5,10)$.)
+
+\subsection*{A2. Twice-repeated game}
+\textbf{Stage-game Nash equilibria.} Best responses:
+\begin{itemize}
+  \item Player 1: to $A_2\to B_1$ (12); to $B_2\to B_1$ (4); to $C_2\to C_1$ (1).
+  \item Player 2: to $A_1\to C_2$ (12); to $B_1\to B_2$ (3); to $C_1\to C_2$ (0).
+\end{itemize}
+Pure NE: $(B_1,B_2)$ with payoffs $(4,3)$ and $(C_1,C_2)$ with payoffs $(1,1)$. $(A_1,A_2)$ is \emph{not} a stage NE (each player gains $2$ by deviating), so it must be supported by a reward/punishment in period 2.
+
+\textbf{(a)} Strategy profile:
+\begin{itemize}
+  \item Period 1: Player 1 plays $A_1$, Player 2 plays $A_2$.
+  \item Period 2: if the period-1 outcome was $(A_1,A_2)$, play $(B_1,B_2)$ (``reward''); after \emph{any other} outcome, play $(C_1,C_2)$ (``punishment'').
+\end{itemize}
+\emph{Period-2 subgames:} after every history a stage NE is played, so no one can gain by deviating in period 2.
+
+\emph{Period 1:} totals given the continuation
+\begin{center}
+\begin{tabular}{l|c|c}
+  & Follow ($A$) & Best deviation \\ \hline
+  Player 1 & $10+4=14$ & $B_1$: $12+1=13$ \quad ($C_1$: $11+1=12$) \\
+  Player 2 & $10+3=13$ & $C_2$: $12+1=13$ \quad ($B_2$: $7+1=8$)
+\end{tabular}
+\end{center}
+Player 1 strictly prefers to follow; Player 2 is indifferent ($13=13$), so following is still a best response. No profitable one-shot deviation exists in any subgame, so this is an SPE with payoffs $(14,13)$.
+
+\textbf{(b)} For any two stage NE $x,y\in\{(B_1,B_2),(C_1,C_2)\}$, the profile ``play $x$ in period 1 and $y$ in period 2 \emph{regardless of history}'' is an SPE: period-2 play is a stage NE after every history, and because it does not depend on period-1 actions, period-1 incentives are those of the stage game, where $x$ is a NE.
+\begin{center}
+\begin{tabular}{c|c|c}
+  Period 1 & Period 2 & Total payoffs \\ \hline
+  $(B_1,B_2)$ & $(B_1,B_2)$ & $(8,6)$ \\
+  $(B_1,B_2)$ & $(C_1,C_2)$ & $(5,4)$ \\
+  $(C_1,C_2)$ & $(B_1,B_2)$ & $(5,4)$ \\
+  $(C_1,C_2)$ & $(C_1,C_2)$ & $(2,2)$
+\end{tabular}
+\end{center}
+
+\subsection*{A3. All-pay auction}
+Suppose bidder $j$ uses $b(v)=\tfrac12v^2$. It is strictly increasing with range $[0,\tfrac12]$, so ties occur with probability zero.
+
+Consider bidder $i$ with value $v$ bidding $x$.
+\begin{itemize}
+  \item Any $x>\tfrac12$ is worse than $x=\tfrac12$: both win with probability 1, but $x$ costs more.
+  \item For $x\in[0,\tfrac12]$:
+  \[
+    \Pr(\text{win})=\Pr\!\left(\tfrac12 v_j^2<x\right)=\Pr\!\left(v_j<\sqrt{2x}\right)=\sqrt{2x}.
+  \]
+\end{itemize}
+Since $i$ pays $x$ whether or not she wins, her expected payoff is
+\[
+  U(x;v)=v\sqrt{2x}-x .
+\]
+$U$ is strictly concave in $x$ (as $\sqrt{2x}$ is concave), so the first-order condition characterizes the maximum:
+\[
+  \frac{\partial U}{\partial x}=\frac{v}{\sqrt{2x}}-1=0
+  \;\Longrightarrow\; \sqrt{2x}=v
+  \;\Longrightarrow\; x=\tfrac12 v^2 = b(v).
+\]
+Thus $b(v)$ is a best response to $b(\cdot)$ for every type $v$, so $\big(b(\cdot),b(\cdot)\big)$ is a (symmetric) Bayesian--Nash equilibrium. (Equilibrium expected payoff: $v\cdot v-\tfrac12v^2=\tfrac12v^2\ge0$, so no type wants to bid $0$ instead.)
+
+%----------------------------------------------------------------------
+\section*{Solutions to Exam B}
+\addcontentsline{toc}{section}{Solutions to Exam B}
+
+\subsection*{B1. Twice-repeated game}
+\textbf{Stage-game Nash equilibria.}
+\begin{itemize}
+  \item Player 1: to $A_2\to A_1$ (4); to $B_2\to B_1$ (1); to $C_2\to B_1$ (10).
+  \item Player 2: to $A_1\to A_2$ (4); to $B_1\to B_2$ (1); to $C_1\to B_2$ (10).
+\end{itemize}
+Pure NE: $(A_1,A_2)$ with $(4,4)$ and $(B_1,B_2)$ with $(1,1)$. $(C_1,C_2)$ is not a stage NE (deviating to $B$ gives $10>8$).
+
+\textbf{(a)} A strategy specifies an action in period 1 and an action after each of the $3\times3=9$ possible period-1 outcomes:
+\[
+  |S_i| = 3\cdot 3^{9}=3^{10}=\mathbf{59{,}049}\quad\text{for each player.}
+\]
+
+\textbf{(b)} Strategy profile:
+\begin{itemize}
+  \item Period 1: play $(C_1,C_2)$.
+  \item Period 2: if the period-1 outcome was $(C_1,C_2)$, play $(A_1,A_2)$; otherwise play $(B_1,B_2)$.
+\end{itemize}
+Period-2 play is a stage NE after every history. In period 1 (symmetric for both players):
+\[
+  \text{follow } C:\ 8+4=12 \;>\; \text{deviate to } B:\ 10+1=11 \;>\; \text{deviate to } A:\ 3+1=4 .
+\]
+No profitable deviation, so this is an SPE with payoffs $(12,12)$.
+The idea: the deviation gain is $10-8=2$, the future loss is $4-1=3>2$.
+
+\textbf{(c)} Play stage NE $x$ in period 1 and stage NE $y$ in period 2 regardless of history, where each of $x$ and $y$ is $(A_1,A_2)$ or $(B_1,B_2)$ (same argument as in A2(b)):
+\begin{center}
+\begin{tabular}{c|c|c}
+  Period 1 & Period 2 & Total payoffs \\ \hline
+  $(A_1,A_2)$ & $(A_1,A_2)$ & $(8,8)$ \\
+  $(A_1,A_2)$ & $(B_1,B_2)$ & $(5,5)$ \\
+  $(B_1,B_2)$ & $(A_1,A_2)$ & $(5,5)$ \\
+  $(B_1,B_2)$ & $(B_1,B_2)$ & $(2,2)$
+\end{tabular}
+\end{center}
+
+\subsection*{B2. John and Smith go to the movies}
+Write $S$ = Shining, $B$ = Blues Brothers. John has two types: peaceful ($P$) and nightmare ($N$), each with probability $\tfrac12$ from Smith's point of view.
+
+\textbf{(a)} John's strategy assigns an action to each type, written (action if $P$, action if $N$):
+\[
+  S_{\text{John}}=\{SS,\ SB,\ BS,\ BB\}\quad (\mathbf{4}\text{ strategies}),\qquad
+  S_{\text{Smith}}=\{S,\ B\}\quad (\mathbf{2}\text{ strategies}).
+\]
+
+\textbf{(b)}
+\emph{Nightmare John.} $B$ strictly dominates $S$: against $S$, $0>-1$; against $B$, $1>-2$. So type $N$ always plays $B$.
+
+\emph{Peaceful John.} Best response to Smith's $S$ is $S$ ($2>0$); to Smith's $B$ is $B$ ($1>0$).
+
+\emph{Smith.} His payoffs are the same in both states: $1$ if both pick $S$, $2$ if both pick $B$, $0$ otherwise.
+
+Check each candidate (type $N$ plays $B$):
+\begin{itemize}
+  \item Smith plays $S$ $\Rightarrow$ John plays $SB$. Smith's payoff: from $S$, $\tfrac12(1)+\tfrac12(0)=\tfrac12$; from $B$, $\tfrac12(0)+\tfrac12(2)=1$. Smith would switch to $B$. \textbf{Not an equilibrium.}
+  \item Smith plays $B$ $\Rightarrow$ John plays $BB$. Smith's payoff: from $B$, $2$; from $S$, $0$. Smith's $B$ is a best response. \textbf{Equilibrium.}
+\end{itemize}
+\[
+  \boxed{\text{Unique pure-strategy BNE: John } (B \text{ if peaceful},\ B \text{ if nightmare}),\ \text{Smith } B.}
+\]
+Payoffs: John gets $1$ in either state, Smith gets $2$.
+
+\subsection*{B3. Job-market signaling}
+Productivity $3t$: type 1 is worth $3$, type 2 is worth $6$. Education cost $\tfrac{e}{2t}$: $\tfrac{e}{2}$ for type 1, $\tfrac{e}{4}$ for type 2.
+Let $\mu(e)$ = firms' belief that the worker is type 1 after seeing $e$. Bertrand competition gives zero profit, so
+\[
+  w(e)=3\mu(e)+6\big(1-\mu(e)\big)=6-3\mu(e)\in[3,6].
+\]
+In any PBE, beliefs on the equilibrium path follow Bayes' rule; off the path we may choose them freely. The harshest belief, $\mu=1$ ($w=3$), makes deviations least attractive.
+
+\paragraph{Separating PBE outcomes ($e_1\neq e_2$).} Bayes' rule gives $w(e_1)=3$, $w(e_2)=6$.
+\begin{itemize}
+  \item $e_1=0$: if $e_1>0$, type 1 could deviate to $e=0$, get $w\ge3$, and save the cost.
+  \item Type 1 must not mimic type 2: $3\ge 6-\dfrac{e_2}{2}\iff e_2\ge 6$.
+  \item Type 2 must not mimic type 1: $6-\dfrac{e_2}{4}\ge 3\iff e_2\le 12$.
+\end{itemize}
+\[
+  \boxed{\text{Separating outcomes: } e_1=0,\ w_1=3;\quad e_2\in[6,12],\ w_2=6.}
+\]
+\emph{Example PBE} ($e_2=6$):
+\begin{itemize}
+  \item Worker: type 1 chooses $e=0$; type 2 chooses $e=6$.
+  \item Beliefs: $\mu(6)=0$; $\mu(e)=1$ for all $e\neq6$.
+  \item Wages: both firms offer $w(6)=6$ and $w(e)=3$ for $e\neq6$.
+\end{itemize}
+Check: type 1 gets $3$ from $e=0$ versus $6-3=3$ from $e=6$ (no gain) and $3-\tfrac e2<3$ from any other $e$. Type 2 gets $6-\tfrac64=4.5$ versus at most $3$ from any other $e$. Firms earn zero profit given beliefs, and beliefs are consistent with Bayes' rule on the path.
+
+\paragraph{Pooling PBE outcomes ($e_1=e_2=e^*$).} Bayes' rule gives $\mu(e^*)=p$, so $w^*=6-3p$. Use $\mu(e)=1$ ($w=3$) off the path. Neither type should deviate:
+\begin{itemize}
+  \item Type 1: $6-3p-\dfrac{e^*}{2}\ge 3\iff e^*\le 6(1-p)$.
+  \item Type 2: $6-3p-\dfrac{e^*}{4}\ge 3\iff e^*\le 12(1-p)$ (implied by type 1's condition).
+\end{itemize}
+\[
+  \boxed{\text{Pooling outcomes: } e^*\in[0,\,6(1-p)],\quad w^*=6-3p.}
+\]
+\emph{Example PBE} ($e^*=0$):
+\begin{itemize}
+  \item Worker: both types choose $e=0$.
+  \item Beliefs: $\mu(0)=p$; $\mu(e)=1$ for $e>0$.
+  \item Wages: $w(0)=6-3p$; $w(e)=3$ for $e>0$.
+\end{itemize}
+Any deviation $e>0$ yields $3-\text{cost}<3<6-3p$, so neither type deviates.
+
+%----------------------------------------------------------------------
+\section*{Solutions to ECON 521 Final}
+\addcontentsline{toc}{section}{Solutions to ECON 521 Final}
+
+\subsection*{C1. Three-period bargaining}
+Convention: a payoff of $x$ received in period $t$ is worth $\delta^{t-1}x$. Solve backwards; break indifference in favor of accepting.
+
+\textbf{Period 3.} Payoffs are fixed: Player 1 gets $y$, Player 2 gets $10-y$.
+
+\textbf{Period 2} (Player 2 proposes $s_2$).
+\begin{itemize}
+  \item Player 1 accepts iff $s_2\ge\delta y$ (rejecting gives $y$ one period later).
+  \item Player 2 offers the least Player 1 accepts, $s_2^*=\delta y$, and keeps $10-\delta y$.
+  \item This beats triggering period 3 for Player 2: $10-\delta y\ge\delta(10-y)\iff 10\ge 10\delta$. True.
+\end{itemize}
+
+\textbf{Period 1} (Player 1 proposes $s_1$).
+\begin{itemize}
+  \item Player 2 accepts iff $10-s_1\ge\delta(10-\delta y)$, i.e.\ $s_1\le 10-10\delta+\delta^2y$.
+  \item Player 1 offers the most Player 2 accepts: $s_1^*=10(1-\delta)+\delta^2 y$.
+  \item This beats being rejected: Player 1 would then get $\delta\cdot\delta y=\delta^2y<s_1^*$.
+\end{itemize}
+
+\textbf{SPE.}
+\begin{itemize}
+  \item Player 1: propose $s_1^*=10(1-\delta)+\delta^2y$ in period 1; in period 2 accept iff $s_2\ge\delta y$.
+  \item Player 2: in period 1 accept iff $10-s_1\ge\delta(10-\delta y)$; in period 2 propose $s_2^*=\delta y$.
+\end{itemize}
+\[
+  \boxed{\text{Immediate agreement: Player 1 gets } 10(1-\delta)+\delta^2 y,\ \text{Player 2 gets } \delta(10-\delta y).}
+\]
+
+\subsection*{C2. Repeated Bertrand competition}
+\textbf{Monopoly benchmark.} $\max_p\, p(1-p)\Rightarrow p^m=\tfrac12$, $\pi^m=\tfrac14$. If all firms charge $p^m$, each earns $\pi^m/n$ per period.
+
+\textbf{Grim trigger strategy} for each firm $i$:
+\begin{itemize}
+  \item Charge $p^m=\tfrac12$ in period 1 and in every period in which all firms charged $p^m$ in all past periods.
+  \item Otherwise charge $p_i=0$ (marginal cost) forever.
+\end{itemize}
+
+\textbf{Punishment phase.} Everyone pricing at $0$ is a stage NE (profit $0$; deviating to a higher price sells nothing). Repeating a stage NE forever is an SPE of every punishment subgame.
+
+\textbf{Cooperative phase.} By the one-shot deviation principle, compare:
+\begin{itemize}
+  \item Cooperate forever: $\displaystyle \frac{\pi^m}{n}\cdot\frac{1}{1-\delta}$.
+  \item Best deviation: undercut to $p^m-\varepsilon$, capture the whole market and earn (arbitrarily close to) $\pi^m$ today, then $0$ forever. Charging above $p^m$ earns $0$, and no price earns more than $\pi^m$.
+\end{itemize}
+No profitable deviation iff
+\[
+  \frac{\pi^m}{n(1-\delta)}\ \ge\ \pi^m
+  \iff 1-\delta\le\frac1n
+  \iff \boxed{\ \delta\ \ge\ 1-\frac1n\ }.
+\]
+(The supremum $\pi^m$ is never attained by a deviation, so the weak inequality suffices.) The threshold rises with $n$: collusion is harder to sustain with more firms, because each firm's share $\pi^m/n$ shrinks while the one-period gain from undercutting stays $\approx\pi^m$.
+
+\end{document}

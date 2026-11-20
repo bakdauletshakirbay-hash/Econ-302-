@@ -29,3 +29,9 @@ Full syllabus: [Syllabus_ECON302.pdf](Syllabus_ECON302.pdf)
 - Missed midterm (approved reason): weight shifts to the final. Missed final: make-up, possibly harder.
 - Attendance is taken randomly six times; missing all six means an automatic fail.
 - AI/other contributions must be quoted and cited every time they are used.
+
+## Past finals
+- [past_finals/past_finals.pdf](past_finals/past_finals.pdf): all past final questions typeset in LaTeX, with full solutions at the end ([LaTeX source](past_finals/past_finals.tex))
+- [past_finals/original_past_finals.pdf](past_finals/original_past_finals.pdf): the original collected questions
+
+Compile with `pdflatex past_finals.tex` (run twice for the table of contents).
